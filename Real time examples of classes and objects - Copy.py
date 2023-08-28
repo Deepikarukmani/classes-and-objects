@@ -1,25 +1,19 @@
-class Goa:
-    name = " "
-    drink = " "
-    def party (self):
-        print("Let's party")
-    def beach (self):
-        print("Explore the Goa")
+class bankacc():
+    def __init__(self,name,accno):
+        self.n=name
+        self.a=accno
+        self.balance=0
+def deposit(self,amount):
+        self.balance = self.balance + amount
+        print("you account balance is ",self.balance)
 
-ramesh = Goa()
-suresh = Goa()
+def withdraw(self,amount):
+        self.balance= self.balance - amount
+        print("you account balance is ",self.balance)
 
-ramesh.name="Ramesh"
-suresh.name="suresh"
 
-ramesh.drink = "Yes"
-suresh.drink = "No"
+deepika=bankacc("deepika","1234")
+titi=bankacc("guvi","1111")
 
-print(ramesh.name)
-print("drink", ramesh.drink)
-print(suresh.name)
-print("drink", suresh.drink)
-
-ramesh.party()
-suresh.beach()
-
+print(deepika)
+print(titi)
