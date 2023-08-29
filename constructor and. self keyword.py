@@ -45,3 +45,14 @@ student2.register_number = "162558921"
 
 student1.display()
 student2.display()
+
+
+
+# create a class called fruit create a variable called color using _init_ method."
+#create a object called apple"pass the color variable as aparameter through object
+class Fruit:
+    def __int__(self,col):
+        self.color=col
+
+apple=Fruit("black")
+print(apple.color)
