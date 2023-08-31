@@ -56,3 +56,22 @@ class Fruit:
 
 apple=Fruit("black")
 print(apple.color)
+
+
+#list out the class of teachers name and register name
+class Teacher:
+    def __int__(self,name,reg):
+        self.name = name
+        self.reg_no = reg
+    def display(self):
+        print("name:", self.name)
+        print("regno:", self.reg_no)
+
+t1= Teacher()
+t2= Teacher()
+
+t1.name= "deepika"
+t2.regno= "162350"
+
+t1.display()
+t2.display()
