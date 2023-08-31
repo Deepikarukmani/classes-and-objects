@@ -75,3 +75,35 @@ t2.regno= "162350"
 
 t1.display()
 t2.display()
+
+
+# Arithmetic operations of class and objects:
+class calculator:
+    def __init__(self,a,b):
+        self.num1 = a
+        self.num2 = b
+    def add(self):
+        print("add", self.num1+self.num2)
+    def sub(self):
+        print("sub", self.num1-self.num2)
+    def mul(self):
+        print("mul", self.num1*self.num2)
+    def div(self):
+        print("div", self.num1/self.num2)
+
+object1= calculator(10,2)
+object1.add()
+object1.sub()
+object1.mul()
+object1.div()
+
+
+
+
+#another method not using construtor:
+class calculator:
+    def add(self,a,b):
+        print("add",a+b)
+
+object1= calculator()
+object1.add(10,2)
