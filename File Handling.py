@@ -1,7 +1,11 @@
-exception
-handling
-
-Deepikaexception handling
-Deepikaexception handling
-Deepikaexception handling
-Deepika
+f = open("File Handling.py","a")
+print(f)
+# content=f.read()
+# print(content)
+f.write("exception handling\n")
+f.write("Deepika")
+print(f.write)
+f.close()
+print(f.close())
+f = open("File Handling.py","r+")
+print(f.readline())
